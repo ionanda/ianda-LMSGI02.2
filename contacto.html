@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Gran Premio de Mónaco - Contacto</title>
+  <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Gran Premio de Mónaco de Fórmula 1</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="circuito.html">Circuito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Solicitud de contacto y acreditación</h2>
+    <p>Rellena este formulario para solicitar información sobre las entradas o pases del Gran Premio.</p>
+
+    <img src="imagenes/monaco_paddock.jpg" alt="Vista del paddock y boxes de Mónaco" />
+
+    <form action="mailto:ianda@ikaslea.birt.eus" method="post" enctype="text/plain">
+      <p>
+        <label for="nombre">Nombre y apellidos:</label><br />
+        <input type="text" id="nombre" name="nombre" />
+      </p>
+
+      <p>
+        <label for="correo">Correo electrónico:</label><br />
+        <input type="email" id="correo" name="correo" />
+      </p>
+
+      <p>
+        <label for="tribuna">Tipo de entrada:</label><br />
+        <select id="tribuna" name="tribuna">
+          <option value="tribuna_k">Tribuna K (Puerto)</option>
+          <option value="casino">Tribuna Casino</option>
+          <option value="pelouse">Pelouse</option>
+        </select>
+      </p>
+
+      <p>
+        <label>Opciones adicionales:</label><br />
+        <input type="checkbox" id="parking" name="opciones" value="parking" />
+        <label for="parking">Aparcamiento</label><br />
+        <input type="checkbox" id="guia" name="opciones" value="guia" />
+        <label for="guia">Guía oficial del circuito</label>
+      </p>
+
+      <p>
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar formulario" />
+        <input type="reset" value="Borrar datos" />
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <p>Sitio web sobre Fórmula 1 - IANDA BirtLH</p>
+  </footer>
+
+</body>
+</html>        
