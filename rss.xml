@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Novedades del Sitio Web UD02 - ianda</title>
+    <link>https://ionanda.github.io/ianda/rss.xml</link>
+    <description>Canal RSS con las últimas actualizaciones de la Unidad Didáctica 02.</description>
+    <language>es</language>
+    <lastBuildDate>Tue, 27 Oct 2026 14:43:00 +0100</lastBuildDate>
+
+    <item>
+      <title>Detalles del trazados</title>
+      <link>hhttps://ionanda.github.io/ianda/circuito.html</link>
+      <description>Detalles del trazado</description>
+      <pubDate>Tue, 27 Oct 2026 10:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Contacto</title>
+      <link>https://ionanda.github.io/ianda/contacto.html</link>
+      <description>Solicitud de contacto y acreditación</description>
+      <pubDate>Mon, 26 Oct 2026 18:30:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
